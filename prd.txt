@@ -1,0 +1,987 @@
+MASTER PROMPT — SANA HASAN | PREMIUM INTERACTIVE DEVELOPER PORTFOLIO
+1. YOUR ROLE
+
+Act as a world-class UI/UX designer, senior frontend engineer, creative director, interaction designer, and digital brand strategist.
+
+Design a complete, visually stunning, professional, responsive, and highly interactive personal portfolio website for Sana Hasan, a student and aspiring full-stack developer.
+
+The portfolio must combine the sophistication of a premium technology brand, the creativity of an experimental digital studio, and the clarity of a professional developer portfolio.
+
+Do not create a generic portfolio template. Create a distinctive personal brand with a cohesive visual identity, intentional interactions, refined typography, elegant motion, and excellent usability.
+
+The final design should be suitable for:
+
+Internship and job applications.
+Freelance opportunities and client acquisition.
+Showcasing personal and academic projects.
+Networking with developers and potential collaborators.
+Building a recognizable professional identity over time.
+
+Primary objective: Make visitors understand who Sana Hasan is, what she can build, how she approaches development, and how to contact her within a few seconds.
+
+2. PERSONAL BRAND AND CONTENT
+
+Name: Sana Hasan
+
+Professional title: Full-Stack Developer | Student | Creative Problem Solver
+
+Professional positioning: An aspiring developer who enjoys building practical digital experiences, learning new technologies, solving problems, and combining functionality with thoughtful design.
+
+Write all website copy in natural, confident, concise, professional English.
+
+The voice should feel intelligent, approachable, ambitious, and authentic. Avoid exaggerated claims, generic motivational quotes, corporate jargon, and overly dramatic descriptions.
+
+Possible hero headline:
+
+“Building thoughtful digital experiences, one line of code at a time.”
+
+Supporting description:
+
+“I’m Sana Hasan, an aspiring full-stack developer passionate about building useful, intuitive, and visually engaging digital experiences. I enjoy exploring new technologies, solving problems, and turning ideas into functional products.”
+
+Primary CTA: “Explore My Work”
+
+Secondary CTA: “Let’s Connect”
+
+Optional tertiary link: “Download Resume”
+
+Make every sentence editable. Treat this copy as initial content, not immutable text.
+
+Important content integrity rules
+
+I am still building my professional profile. Do not invent:
+
+Employment history or professional experience.
+Companies, clients, internships, or testimonials.
+Degrees, universities, certificates, or awards.
+Project users, revenue, traffic, performance metrics, or business results.
+GitHub activity, contribution counts, or proficiency percentages.
+Social media usernames, email addresses, or contact details.
+
+Use clearly labeled, editable placeholders wherever information is missing.
+
+Use wording such as “Aspiring Full-Stack Developer,” “Currently Learning,” and “Selected Projects” where appropriate.
+
+Never present fictional sample projects as completed real-world client work. Make placeholder projects visually realistic but clearly editable until I provide the actual project details.
+
+Do not use fake statistics such as “50+ projects” or “100% client satisfaction.”
+
+3. VISUAL DIRECTION — DARK, PREMIUM, FUTURISTIC
+
+Create a sophisticated dark interface with a futuristic, editorial, developer-focused aesthetic.
+
+The site should feel like a blend of a premium creative portfolio, a modern software studio, and an elegant personal technology brand.
+
+Color palette
+
+Use a carefully controlled palette:
+
+Primary background: near-black charcoal, approximately #0B0D12.
+Secondary background: deep graphite, approximately #121620.
+Elevated surfaces: approximately #181D29.
+Primary text: soft white, approximately #F4F6FC.
+Secondary text: muted cool gray, approximately #A0A8B8.
+Primary accent: electric violet, approximately #8B5CF6.
+Secondary accent: cyan, approximately #55D6E8.
+Borders: subtle translucent gray-white.
+
+Use violet as the dominant accent and cyan sparingly for highlights, active states, and small interactive details.
+
+Gradients should be subtle and intentional. Avoid excessive neon, oversaturated colors, heavy glows, and rainbow gradients.
+
+Provide a fully designed light theme with appropriate backgrounds, readable text, adjusted borders, and accessible accent colors.
+
+Typography
+
+Use a refined typographic pairing:
+
+Headings: Space Grotesk, Sora, or a similar geometric sans-serif.
+Body text: Inter, or a comparable highly readable sans-serif.
+Optional code labels: JetBrains Mono.
+
+Use expressive but controlled typography. The hero headline should be large and distinctive, with balanced line breaks and a clear reading hierarchy.
+
+Avoid making every element uppercase, excessively bold, or widely letter-spaced.
+
+Layout and surfaces
+Generous whitespace and consistent spacing.
+A centered content container with a sensible maximum width.
+Strong visual hierarchy and intentional alignment.
+Thin borders and subtle surface differentiation.
+Rounded corners used consistently, approximately 12–20px for cards.
+Carefully layered background gradients and very subtle ambient lighting.
+Minimal decorative grid lines, particles, or abstract geometric elements.
+Clean, premium icons with consistent stroke weight.
+Clear contrast between interactive and non-interactive elements.
+
+Avoid clutter, excessive glassmorphism, giant empty sections, decorative elements that reduce readability, and excessive card nesting.
+
+Signature visual element
+
+Create a distinctive hero visual that communicates development and creativity.
+
+Possible elements include:
+
+An abstract 3D geometric object.
+A softly animated orbital system.
+A floating, stylized code-editor panel.
+A minimal interactive digital sphere.
+A layered composition of code snippets and geometric forms.
+
+Choose one coherent concept rather than combining every idea.
+
+The visual should be lightweight, elegant, and supportive of the content. Do not require a portrait photograph. If no portrait is provided, use an abstract visual or an editable avatar placeholder rather than inventing a personal photograph.
+
+4. SITE STRUCTURE
+
+Build the portfolio as one cohesive website with a clear navigation system and the following sections in this order.
+
+A. Navigation
+
+Create a premium sticky navigation bar.
+
+Left side:
+
+A compact monogram or custom wordmark: “SH”.
+The name “Sana Hasan” or a refined text-based logo.
+
+Center or right:
+
+Home
+About
+Skills
+Projects
+Journey
+Contact
+
+Utility controls:
+
+Dark/light theme toggle.
+A prominent but restrained “Let’s Talk” CTA.
+
+Behavior:
+
+Smoothly scroll to the correct section.
+Highlight the active section when appropriate.
+Use a translucent background or subtle blur after scrolling, while maintaining readable contrast.
+Keep the navigation compact.
+On mobile, replace desktop links with an accessible menu button and a clean dropdown or drawer.
+Close the mobile menu after navigation.
+Support keyboard navigation and visible focus indicators.
+
+Do not allow the navigation to obscure section headings when scrolling.
+
+B. Hero section
+
+Make the first screen exceptional.
+
+Suggested layout:
+
+A small introductory label: “HELLO, I’M SANA HASAN”.
+A prominent headline split into two or three visually balanced lines.
+A concise professional description.
+Two primary actions: “Explore My Work” and “Let’s Connect”.
+An optional text link to the resume.
+A striking abstract visual positioned beside the text on desktop and below it on smaller screens.
+
+Include a subtle availability or current-focus indicator only if it can be represented honestly. Use “Open to opportunities” as an editable setting, not an assumed fact.
+
+Add a minimal scroll indicator at the bottom.
+
+Interactions:
+
+A restrained entrance animation for the heading and supporting content.
+Subtle movement in the hero visual.
+Refined hover feedback on CTA buttons.
+A soft animated accent or gradient.
+Optional pointer-responsive movement on the abstract visual for devices that support it.
+
+The hero must immediately communicate identity, role, and value. Never sacrifice readability for decoration.
+
+C. About me
+
+Section heading: “A little about me.”
+
+Use a clear, human, approachable layout.
+
+Include:
+
+A short personal introduction.
+My interest in full-stack development.
+My approach to learning and problem-solving.
+My interest in creating functional, accessible, well-designed experiences.
+An optional current-learning focus.
+A small set of editable personal-interest tags.
+
+Use a two-column layout on desktop, with text on one side and a visual composition, code panel, or abstract illustration on the other.
+
+On mobile, stack the content naturally.
+
+Include a small “My approach” area with three principles:
+
+Build with purpose.
+Keep learning and improving.
+Design for real people.
+
+Present these as personal values, not proof of accomplishments.
+
+D. Skills and technologies
+
+Section heading: “Tools I work with.”
+
+Present the skills in a polished, organized, visually scannable layout.
+
+Initial skills supplied by me:
+
+Programming languages:
+
+C
+Java
+JavaScript
+Python
+PHP
+
+Web technologies:
+
+HTML
+CSS
+
+Creative tools:
+
+Canva
+Adobe tools — specific products to be confirmed.
+
+Additional skills and technologies will be provided later.
+
+Organize the interface into categories such as:
+
+Programming Languages
+Frontend Development
+Backend Development
+Tools & Design
+
+Only assign technologies to categories when appropriate. Keep the categories and technology lists editable.
+
+Display technologies as clean icon-and-label elements or refined compact cards.
+
+Interactions:
+
+Subtle hover states.
+A small accent border or background change on hover and keyboard focus.
+Optional category filters if they improve clarity.
+Tooltips for meaningful extra information, never for information already obvious from the label.
+
+Do not use fake proficiency bars, arbitrary skill percentages, or misleading expert ratings.
+
+Do not imply that I am proficient in every listed language. Treat the list as my current technology inventory until I specify my actual proficiency.
+
+For Adobe, use a generic label until I provide the specific tools I use.
+
+Include a small “Currently exploring” group that I can update later.
+
+E. Featured projects
+
+Section heading: “Selected Projects.”
+
+Supporting text: “A collection of things I’ve built, explored, and learned from.”
+
+This should be one of the most visually compelling sections of the website.
+
+Create a flexible project showcase designed to accommodate real projects as I provide them.
+
+Start with three editable placeholder projects:
+
+Project 01: Personal Portfolio Website
+
+Type: Web Development
+Suggested technologies: HTML, CSS, JavaScript
+Description: A personal website concept focused on presenting work, skills, and professional identity.
+Status: Placeholder — replace with actual project details.
+
+Project 02: Task Management Application
+
+Type: Full-Stack Application
+Suggested technologies: JavaScript, HTML, CSS, and an editable backend/database field.
+Description: A proposed application for organizing tasks, tracking progress, and managing everyday workflows.
+Status: Concept placeholder — not claimed as a completed project.
+
+Project 03: Python Utility Application
+
+Type: Programming / Automation
+Suggested technologies: Python
+Description: A placeholder for a practical utility that automates a repetitive task or simplifies a small workflow.
+Status: Placeholder — replace with an actual project.
+
+These are demonstration entries only. Clearly mark them as editable examples in the initial design. Do not fabricate screenshots, live websites, repository URLs, deployment status, or completed features.
+
+Project card design
+
+Use a premium responsive grid:
+
+Three columns on wide screens where space permits.
+Two columns on medium screens.
+One column on small mobile screens.
+
+Each project card should contain:
+
+A project thumbnail or custom visual placeholder.
+Project title.
+One concise description.
+Technology tags.
+A clear project status.
+A “View Details” interaction.
+Optional repository and live-demo links when actual URLs are supplied.
+
+Use visually distinct, high-quality project visuals. Prefer custom abstract illustrations, interface mockups, or editable screenshot placeholders over unrelated stock photography.
+
+Project filtering
+
+Provide functional filter controls such as:
+
+All Projects
+Frontend
+Backend
+Full-Stack
+Python
+Other
+
+Only show filters that have meaningful matching entries. The displayed project count should update when the filter changes.
+
+Filtering should be immediate, smooth, and understandable. Include a clear active state and keyboard-accessible controls.
+
+Project detail interaction
+
+Clicking “View Details” should open a well-designed modal, expandable panel, or dedicated detail view.
+
+Show:
+
+Project overview.
+Problem or purpose.
+Key features.
+Technologies used.
+Challenges and lessons learned.
+My specific contribution.
+Repository link and live demo, if available.
+
+For placeholder projects, label all content as illustrative and editable. Do not imply actual implementation or personal achievements.
+
+The detail view must be dismissible with a clear close button, and where appropriate, the Escape key. Manage keyboard focus correctly and prevent interaction with obscured background content when a modal is open.
+
+Do not make entire cards inaccessible clickable surfaces without proper keyboard and focus behavior.
+
+F. Development journey
+
+Section heading: “My development journey.”
+
+Create a clean vertical timeline or structured milestones layout.
+
+Possible editable entries:
+
+Exploring programming fundamentals.
+Learning web development.
+Practicing with personal projects.
+Expanding full-stack development knowledge.
+Future learning goals.
+
+Treat these as editable categories or suggested milestones, not verified chronological achievements.
+
+Do not invent dates, degrees, institutions, awards, or completed certifications.
+
+Provide an easy way to add, remove, and reorder entries in the design structure.
+
+Include a small “What I’m learning next” area with editable text.
+
+G. Beyond the code
+
+Create an optional compact section to showcase creative interests and the relationship between technology and design.
+
+This can highlight:
+
+Visual creativity.
+Design exploration.
+Experimentation with digital tools.
+Curiosity and continuous learning.
+
+Canva and Adobe-related interests can appear here without overstating professional design expertise.
+
+Keep this section optional and compact so it can be removed if it does not match my future profile.
+
+H. Resume section
+
+Create a dedicated resume CTA or a visually integrated resume card.
+
+Headline: “Want to know more about my background?”
+
+Supporting text: “Explore my skills, education, projects, and experience in one place.”
+
+Primary action: “Download Resume”.
+
+Behavior:
+
+Use an actual resume file only when one is supplied.
+Keep the download destination configurable.
+Do not generate a fake resume or link to a nonexistent file.
+If no resume exists yet, display an editable placeholder state with a clear instruction to add the file.
+Ensure the button becomes functional when a real PDF or valid resume URL is connected.
+
+Optionally provide a “View Resume” action when an actual resume is available.
+
+I. Contact section
+
+Section heading: “Have an idea? Let’s connect.”
+
+Supporting text: “Whether it’s an opportunity, a collaboration, or simply a conversation about technology, I’d love to hear from you.”
+
+Create a friendly, polished contact layout with:
+
+A contact form.
+Editable email address.
+GitHub profile link.
+LinkedIn profile link.
+Optional additional social links.
+A concise closing message.
+
+Use placeholders for all personal contact details until I provide them.
+
+Contact form fields
+Name — required.
+Email — required.
+Subject — optional.
+Message — required.
+
+Include:
+
+Proper labels for every input.
+Helpful placeholders.
+Inline validation messages.
+Email format validation.
+Clear required-field indicators.
+Character limits where useful.
+A visible submission state.
+A clear success or error message.
+A disabled or loading state while submitting.
+
+The form must not falsely claim to send a message when no submission service exists.
+
+Connect it to a configurable form endpoint or suitable backend when implementation support is available. If no backend is configured, show a clearly explained setup placeholder or provide a functional alternative such as an email link.
+
+Never expose private API keys or secret credentials in frontend code.
+
+J. Footer
+
+Create a minimal, refined footer with:
+
+SH monogram.
+Sana Hasan.
+A short professional tagline.
+Navigation links.
+Configurable social links.
+A dynamically generated current year where implementation supports it.
+A subtle back-to-top action.
+
+Avoid unnecessary footer clutter.
+
+5. INTERACTION DESIGN
+
+Every interaction should feel intentional, polished, and responsive.
+
+Implement the following:
+
+Motion and transitions
+Smooth section navigation.
+Subtle entrance transitions as sections enter the viewport.
+Short, restrained button and card transitions.
+Elegant hover states.
+Small animated accents.
+Carefully controlled hero animation.
+Smooth theme transitions.
+Subtle project-detail opening and closing transitions.
+
+Use motion to communicate hierarchy and feedback, not merely to decorate.
+
+Keep most UI transitions approximately 150–300 milliseconds. Larger entrance animations may be slightly longer when appropriate.
+
+Avoid long delays before content becomes readable.
+
+Custom cursor
+
+Implement an optional custom cursor effect for desktop pointer devices only.
+
+Requirements:
+
+A small, understated visual indicator.
+Optional subtle hover expansion over interactive elements.
+No exaggerated trailing effects.
+No interference with text selection, links, buttons, or pointer events.
+No custom cursor on touch-first devices.
+Preserve the standard cursor where custom behavior is unavailable.
+Respect reduced-motion preferences.
+
+The custom cursor must never become a barrier to usability.
+
+Hover effects
+
+Use subtle feedback on:
+
+Project cards.
+Navigation links.
+CTA buttons.
+Technology chips.
+Social links.
+Interactive illustrations.
+
+Examples include a slight elevation, border-color shift, gentle image zoom, or accent glow.
+
+Avoid aggressive scaling, layout shifts, and effects that reduce readability.
+
+Subtle 3D interactions
+
+Use lightweight depth effects selectively.
+
+Possible treatments:
+
+Gentle perspective tilt on desktop project cards.
+Layered depth in the hero visual.
+Slow ambient movement of decorative geometry.
+
+Limit pointer-driven 3D effects to capable devices, use conservative movement, and disable or simplify them on mobile and for reduced-motion preferences.
+
+Theme toggle
+
+Implement a fully functional dark/light mode switch.
+
+Requirements:
+
+Both themes must be professionally designed.
+Use a consistent design-token system for colors, borders, surfaces, and shadows.
+Provide a clear accessible label and visible state.
+Avoid a flash of the wrong theme during initialization when implementation allows.
+Persist the user's preference when appropriate.
+Support the operating system theme as an initial default if no preference has been set.
+Interaction feedback
+
+All interactive controls must have clear hover, active, focus, disabled, and loading states where applicable.
+
+Never create a control that looks functional but does nothing.
+
+6. RESPONSIVE DESIGN
+
+Design mobile-first, then progressively enhance the tablet and desktop layouts.
+
+Desktop
+A spacious editorial layout.
+Full navigation.
+Two-column hero.
+Three-column project grid where appropriate.
+Generous margins and controlled content width.
+Refined hover and pointer effects.
+Tablet
+Reduced section spacing.
+Balanced typography.
+Two-column layouts where they remain readable.
+Flexible navigation.
+Simplified decorative visuals.
+Mobile
+Single-column layouts.
+A compact navigation menu.
+Readable text without horizontal scrolling.
+Full-width or comfortably sized CTA buttons.
+Project cards stacked vertically.
+Touch-friendly controls.
+Adequate spacing between interactive elements.
+No hover-only interactions.
+Simplified or disabled custom cursor and 3D effects.
+Responsive hero artwork that never crowds the headline.
+Properly sized modal or detail panels.
+Contact form fields that fit the viewport.
+
+Check the experience at approximately 360px, 390px, 768px, 1024px, and 1440px widths.
+
+Prevent horizontal overflow, clipped content, overlapping controls, and excessively large typography on small screens.
+
+Do not simply shrink the desktop layout. Recompose the design for smaller screens.
+
+7. ACCESSIBILITY
+
+Follow WCAG 2.2 AA principles wherever practical.
+
+Implement:
+
+Semantic headings and page landmarks.
+Logical heading hierarchy.
+Sufficient color contrast in both themes.
+Visible keyboard focus indicators.
+Full keyboard navigation.
+Proper form labels and validation announcements.
+Accessible names for icon-only buttons.
+Descriptive link text.
+Useful alternative text for meaningful images.
+Empty alternative text for decorative imagery.
+Correct dialog semantics and focus management.
+Keyboard-operable project filters.
+Accessible theme controls.
+Touch-friendly interaction targets, ideally around 44 × 44 CSS pixels where practical.
+No information conveyed through color alone.
+No autoplaying sound.
+No flashing effects.
+No essential information hidden behind hover states.
+
+Respect the prefers-reduced-motion media query. When reduced motion is enabled, remove nonessential movement, parallax, cursor trails, 3D tilt, and animated scrolling. Keep essential interaction feedback immediate and clear.
+
+Ensure the page remains useful with a keyboard, touch input, and screen reader.
+
+8. PERFORMANCE AND TECHNICAL EFFICIENCY
+
+Design the portfolio with real-world performance in mind.
+
+Requirements:
+
+Use a lightweight visual system.
+Avoid unnecessary video backgrounds and heavy 3D scenes.
+Prefer CSS transitions and transforms for simple motion.
+Use lazy loading for below-the-fold images.
+Use appropriately sized, optimized image assets.
+Reserve image dimensions to reduce layout shifts.
+Avoid excessive animation loops and unnecessary event handlers.
+Avoid installing or depending on large libraries for simple interactions.
+Use reusable components and consistent design tokens.
+Keep the layout stable as fonts and images load.
+Use optimized, accessible SVG icons where suitable.
+Use efficient project filtering and state management.
+Avoid duplicate content and redundant UI.
+Design for strong Core Web Vitals and fast initial rendering.
+
+If generating implementation code, target a high Lighthouse score, ideally 90+ in Performance, Accessibility, Best Practices, and SEO where practical. Treat these as optimization goals, not guaranteed results.
+
+Avoid compromising usability or accessibility merely to improve a score.
+
+9. SEO AND PROFESSIONAL PRESENTATION
+
+Provide a clear, search-friendly content structure.
+
+Suggested page title: “Sana Hasan | Aspiring Full-Stack Developer”
+
+Suggested meta description: “Explore Sana Hasan’s developer portfolio, skills, projects, creative interests, and journey in full-stack development.”
+
+Include:
+
+A single clear primary page heading.
+Descriptive section headings.
+Semantic navigation.
+Appropriate metadata.
+Social-sharing metadata where supported.
+A configurable favicon based on the SH monogram.
+Meaningful project image descriptions.
+Clean, descriptive URLs if multiple pages are used.
+Appropriate link semantics.
+A sensible default social-sharing image placeholder.
+
+Do not invent social profile URLs or structured data about employment, awards, or qualifications.
+
+10. DESIGN SYSTEM AND IMPLEMENTATION REQUIREMENTS
+
+Create a cohesive design system before assembling the full page.
+
+Define:
+
+Color tokens for both themes.
+Typography scale.
+Spacing scale.
+Container widths.
+Border radii.
+Shadows and elevation.
+Motion durations and easing.
+Button variants.
+Form field styles.
+Card styles.
+Navigation states.
+Breakpoints.
+Focus indicators.
+Icon sizing.
+
+Use reusable components for:
+
+Navbar.
+Mobile menu.
+Hero.
+Section headings.
+CTA buttons.
+Technology chips.
+Project cards.
+Project filters.
+Project detail dialogs.
+Timeline entries.
+Theme toggle.
+Contact form.
+Footer.
+
+Keep content data separate from presentation where implementation permits, so I can add skills, projects, social links, and experience without redesigning the page.
+
+Use meaningful component names and readable code if code generation is supported.
+
+Avoid unnecessary dependencies and overly complicated architecture.
+
+Functional completeness checklist
+
+Before considering the design complete, verify that:
+
+Every navigation item reaches the correct section.
+Theme switching works correctly.
+Project filters show the right projects.
+Project detail views open and close properly.
+All buttons and links have meaningful destinations.
+The mobile menu works with touch and keyboard input.
+Form validation works.
+The contact submission flow is honestly represented.
+Resume actions only work when a valid file is configured.
+Keyboard focus is visible.
+Reduced-motion preferences are respected.
+Layouts remain usable at mobile, tablet, and desktop widths.
+There are no obvious broken-image or dead-link states.
+Placeholder content is clearly distinguishable from verified personal information.
+11. FINAL ART DIRECTION
+
+The finished portfolio should feel:
+
+Premium, not flashy.
+Futuristic, not cluttered.
+Interactive, not distracting.
+Minimal, not empty.
+Professional, not generic.
+Personal, not overly corporate.
+Creative, without sacrificing readability.
+Ambitious, without exaggerating experience.
+
+Use deliberate visual rhythm. Alternate section layouts where appropriate so the page remains engaging while retaining a consistent identity.
+
+Give the hero, projects, and contact sections the strongest visual emphasis.
+
+Make the project showcase feel like a curated collection of work rather than a generic gallery.
+
+Use subtle visual storytelling through code-inspired elements, geometric forms, layered surfaces, and refined motion.
+
+Avoid:
+
+Generic template layouts.
+Excessive neon glows.
+Unnecessary progress bars.
+Fake client logos.
+Fake testimonials.
+Fake statistics.
+Random stock photos.
+Unverified achievements.
+Excessive glassmorphism.
+Constant animation.
+Huge walls of text.
+Overly complicated navigation.
+Unreadable text on gradients.
+Buttons without real behavior.
+12. GOOGLE STITCH DELIVERABLE
+
+Generate a complete, cohesive portfolio website design rather than just a single hero section.
+
+Deliver:
+
+A polished desktop homepage.
+A complete mobile-responsive version.
+A fully designed dark theme.
+A fully designed light theme.
+All primary portfolio sections.
+Interactive project cards and project-detail states.
+Functional-looking and clearly specified project filters.
+Mobile navigation states.
+Contact form validation and submission states.
+Hover, focus, active, disabled, and loading states where relevant.
+Clear empty and placeholder states for missing personal information.
+A reusable visual design system.
+Consistent spacing, typography, colors, and components throughout.
+
+Prioritize the complete end-to-end user experience over isolated decorative mockups.
+
+If Stitch supports code or implementation handoff, structure the result so that interactions, content, and components can be implemented cleanly. If a backend or external service is required, identify that dependency instead of pretending it already exists.
+
+Use realistic example content only where necessary, and label it clearly as editable placeholder content.
+
+Final quality standard
+
+The result should look like a thoughtfully art-directed personal portfolio that a serious aspiring developer would confidently share with recruiters, potential clients, collaborators, and the developer community.
+
+It should communicate Sana Hasan’s identity clearly, present current skills honestly, make future projects easy to add, load efficiently, work beautifully on mobile, and deliver a delightful but accessible interactive experience.
+
+Design with the mindset that this portfolio will evolve as Sana grows as a developer. Make it visually memorable today and easy to maintain tomorrow.
+
+
+
+
+
+ modify the existing layout or reuse its visual style.
+
+Reference websites:
+
+https://sajiyahasan.com.np/
+https://saddamhawari.com.np/
+
+First, examine the reference websites if accessible. Identify their actual layout, typography, visual hierarchy, spacing, navigation, project presentation, color palette, and personality. Use the strongest relevant design ideas as inspiration. Do not invent details about the references if you cannot access them.
+
+Create an original portfolio inspired by the references, not a direct copy.
+
+My identity:
+
+Name: Sana Hasan
+Role: Aspiring Full-Stack Developer
+Skills: C, Java, JavaScript, Python, HTML, CSS, PHP, Canva, and Adobe tools to be specified later.
+Audience: Recruiters, internship providers, freelance clients, and potential collaborators.
+
+Design requirements:
+
+Prioritize the visual direction and layout principles of the reference websites over the generic AI-generated portfolio aesthetic.
+Create a distinctive hero section that introduces me naturally and confidently.
+Use strong typography, intentional whitespace, balanced proportions, and a cohesive visual identity.
+Present my skills and projects in a clear, attractive, easy-to-scan format.
+Make the portfolio feel personal, authentic, modern, and professionally designed—not like a stock template.
+Add refined interactions, subtle animations, responsive navigation, and elegant project cards only where they improve usability.
+Ensure excellent mobile, tablet, and desktop layouts.
+Maintain accessibility, fast loading, readable contrast, and reduced-motion support.
+Do not invent my achievements, work experience, testimonials, statistics, or completed projects.
+Keep content editable so I can add my real projects, resume, and contact details later.
+
+Do not force a dark futuristic theme, neon gradients, excessive glassmorphism, 3D objects, custom cursors, or decorative effects if they do not match the references.
+
+Before generating, establish a clear visual direction based on the reference sites. Then generate a cohesive, complete homepage with all essential portfolio sections.
+
+The result should look deliberately designed for Sana Hasan, with the reference websites guiding the aesthetic and my professional identity guiding the content.
+
+
+Redesign my portfolio for Sana Hasan using the SECOND reference screenshot as the primary visual direction.
+
+IMPORTANT: I want a genuinely MULTI-PAGE WEBSITE, not a single-page portfolio, not a dashboard, and not a website with only section anchors.
+
+1. VISUAL STYLE
+
+Recreate the visual qualities of the second reference:
+
+Elegant editorial-style serif typography for large headlines.
+A clean white or warm off-white background.
+Dark charcoal text with restrained muted-gray secondary text.
+Small, tasteful burnt-orange or terracotta accents.
+Generous whitespace and comfortable reading widths.
+Thin borders, understated cards, and refined spacing.
+A minimalist, premium, professionally art-directed aesthetic.
+
+Use a sophisticated serif font similar to the headline font in the second screenshot, such as Instrument Serif, DM Serif Display, or an equivalent. Pair it with Inter or a similar clean sans-serif for body text and navigation.
+
+Use a monospace font only for small technical labels and code snippets.
+
+Do not use the first reference's dark terminal/dashboard aesthetic. Remove the oversized code panel, excessive neon colors, thick device-frame borders, dense technical labels, and bottom navigation bar.
+
+Do not make the site look like a generic SaaS dashboard or a template dominated by rounded cards.
+
+2. MULTI-PAGE ARCHITECTURE
+
+Create these as distinct pages with separate URLs and page layouts:
+
+Home — /
+About — /about
+Skills — /skills
+Projects — /projects
+Journey — /journey
+Contact — /contact
+
+Each page must have its own meaningful content and be independently accessible through navigation and direct URL entry.
+
+Do not simulate separate pages by merely scrolling to sections on the homepage. Navigation must change pages or routes.
+
+Use a consistent desktop header across all pages:
+
+Sana Hasan wordmark on the left.
+Home, About, Skills, Projects, Journey, and Contact links.
+A subtle active-page indicator.
+A restrained “Get in Touch” button.
+An optional resume link.
+
+On mobile, use a compact accessible menu rather than a fixed bottom navigation bar.
+
+3. HOMEPAGE
+
+Create a spacious, elegant two-column hero inspired by the second screenshot.
+
+Left column: A small eyebrow label: “ASPIRING FULL-STACK DEVELOPER” A large editorial serif headline:
+
+“Building thoughtful digital experiences, grounded in clean code and human-centered design.”
+
+A concise introduction: “I’m Sana Hasan, an aspiring full-stack developer who enjoys exploring technologies, solving problems, and turning ideas into useful digital experiences.”
+
+Actions:
+
+View Selected Work
+Get in Touch
+Resume, only when a real resume is available
+
+Right column: A refined profile or technical information panel. Use a minimal code snippet or elegant abstract composition, with restrained terracotta accents. Avoid a large, distracting dashboard.
+
+Below the hero, create a generous, naturally scrollable homepage containing:
+
+A brief introduction.
+A preview of selected projects.
+A compact overview of skills.
+A short development-journey preview.
+A clear contact CTA.
+
+The homepage must continue naturally below the initial viewport.
+
+4. INDIVIDUAL PAGES
+
+ABOUT PAGE: Create a dedicated editorial-style biography page with readable paragraphs, personal philosophy, current interests, and learning goals. Keep all personal claims editable.
+
+SKILLS PAGE: Present C, Java, JavaScript, Python, HTML, CSS, PHP, Canva, and Adobe tools in clear categories. Use understated labels and optional simple icons. Do not invent proficiency percentages or claim expertise I have not confirmed.
+
+PROJECTS PAGE: Create a dedicated, scrollable project gallery with attractive visual previews, project descriptions, technology labels, and category filters. Include editable placeholders for three example projects, clearly marked as placeholders rather than completed achievements. Project cards should open meaningful project-detail pages or accessible detail views.
+
+JOURNEY PAGE: Create a clean timeline or milestone-based page for learning, exploration, personal projects, and future goals. Keep dates, education, and achievements editable. Do not fabricate qualifications.
+
+CONTACT PAGE: Create a spacious contact page with a short invitation, labeled contact form, validation states, and configurable email and social links. Do not pretend the form sends messages unless an actual submission service is connected.
+
+5. SCROLLING AND INTERACTIONS
+
+The entire website must scroll vertically naturally on every page.
+
+Requirements:
+
+Do not lock the body to the viewport height.
+Do not place the whole website inside a fixed-height device frame.
+Do not use a nested scrolling panel for the main page content.
+Do not hide content below the fold.
+Do not truncate sections to fit the initial screenshot.
+Use normal document flow and appropriate page heights.
+Keep the header sticky only if it improves navigation.
+Ensure anchor links within a page scroll correctly.
+Ensure navigation links open the correct page.
+Provide a visible, subtle active-page state.
+
+Add restrained hover effects, smooth transitions, and subtle entrance animations. Respect reduced-motion preferences. Avoid excessive parallax, distracting cursor effects, and unnecessary 3D elements.
+
+6. RESPONSIVE DESIGN
+
+Desktop: spacious editorial layouts with balanced two-column compositions.
+
+Tablet: reduced spacing and flexible columns.
+
+Mobile: single-column layouts, readable serif headlines, a compact navigation menu, comfortable touch targets, and full-width content where appropriate.
+
+Every page must remain vertically scrollable, readable, and usable on phones.
+
+7. IMPLEMENTATION AND DESIGN CONSISTENCY
+
+Use reusable headers, footers, typography, colors, spacing, and buttons across all pages.
+
+Ensure every navigation item and CTA has a meaningful destination. Provide appropriate loading, focus, and error states where necessary.
+
+Keep all content editable. Do not invent employment history, testimonials, metrics, social URLs, or completed projects.
+
+FINAL INSTRUCTION
+
+Generate the full multi-page website with all six distinct pages, not just a homepage mockup.
+
+Prioritize the second reference's refined serif typography, whitespace, minimalist navigation, and sophisticated editorial layout.
+
+The result should feel like a carefully designed personal portfolio for Sana Hasan: elegant, professional, readable, naturally scrollable, and easy to expand as my development journey progresses.
