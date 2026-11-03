@@ -23,8 +23,8 @@ export const SkillsPage: React.FC = () => {
 
       <div className="flex flex-col w-full">
         {/* Top Header */}
-        <section className="relative w-full max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pt-space-xl pb-space-2xl">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+        <section className="relative w-full max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pt-space-lg sm:pt-space-xl pb-space-xl sm:pb-space-2xl">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter-desktop items-start">
             <div className="lg:col-span-8 space-y-space-md">
               <div className="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high text-secondary">
                 <span className="w-1.5 h-1.5 rounded-full bg-secondary"></span>
@@ -32,23 +32,23 @@ export const SkillsPage: React.FC = () => {
                   Technical Toolkit &amp; Capabilities
                 </span>
               </div>
-              <h1 className="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              <h1 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface tracking-tight">
                 Tools, languages, and environments I work with.
               </h1>
-              <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+              <p className="font-body-lg text-body-md sm:text-body-lg text-on-surface-variant max-w-2xl">
                 An honest inventory of programming languages, web technologies, and creative tools I actively use and explore. No arbitrary percentages or inflated metrics.
               </p>
-              <div className="flex flex-wrap items-center gap-space-md pt-space-xs text-on-surface-variant font-code-sm text-code-sm">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-space-md pt-space-xs text-on-surface-variant font-code-sm text-code-sm">
                 <span className="inline-flex items-center gap-1.5">
                   <span className="material-symbols-outlined text-[16px] text-secondary">verified</span>
                   <span>Pragmatic focus</span>
                 </span>
-                <span className="text-outline-variant">/</span>
+                <span className="text-outline-variant hidden xs:inline">/</span>
                 <span className="inline-flex items-center gap-1.5">
                   <span className="material-symbols-outlined text-[16px] text-secondary">terminal</span>
                   <span>Systems + Interface balance</span>
                 </span>
-                <span className="text-outline-variant">/</span>
+                <span className="text-outline-variant hidden sm:inline">/</span>
                 <span className="inline-flex items-center gap-1.5">
                   <span className="material-symbols-outlined text-[16px] text-secondary">update</span>
                   <span>Catalog updated Oct 2026</span>
@@ -57,8 +57,8 @@ export const SkillsPage: React.FC = () => {
             </div>
 
             {/* Telemetry Card */}
-            <div className="lg:col-span-4 relative mt-space-md lg:mt-0">
-              <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm border border-outline-variant/40 space-y-space-md">
+            <div className="lg:col-span-4 relative mt-space-md lg:mt-0 w-full">
+              <div className="p-space-md sm:p-space-lg rounded-xl bg-surface-container-low shadow-sm border border-outline-variant/40 space-y-space-md">
                 <div className="flex items-center justify-between">
                   <span className="font-code-sm text-code-sm uppercase tracking-wider text-on-surface-variant">
                     Telemetry &amp; Footprint
@@ -88,53 +88,50 @@ export const SkillsPage: React.FC = () => {
                 </div>
 
                 {/* Filter Controls */}
-                <div className="pt-space-xs flex items-center gap-space-xs text-on-surface-variant font-code-sm text-code-sm flex-wrap">
+                <div className="pt-space-xs flex items-center gap-1.5 sm:gap-space-xs text-on-surface-variant font-code-sm text-code-sm flex-wrap">
                   <span className="material-symbols-outlined text-[16px] text-secondary">filter_alt</span>
-                  <span>Filter view:</span>
+                  <span className="mr-0.5">Filter:</span>
                   <button
                     type="button"
                     onClick={() => setFilter('all')}
-                    className={
+                    className={`px-2.5 py-1 rounded min-h-[36px] transition-colors cursor-pointer ${
                       filter === 'all'
-                        ? 'text-secondary font-medium underline underline-offset-2'
-                        : 'hover:text-on-surface transition-colors cursor-pointer'
-                    }
+                        ? 'bg-secondary text-white font-medium'
+                        : 'bg-surface-container hover:text-on-surface'
+                    }`}
                   >
                     All
                   </button>
-                  <span>·</span>
                   <button
                     type="button"
                     onClick={() => setFilter('code')}
-                    className={
+                    className={`px-2.5 py-1 rounded min-h-[36px] transition-colors cursor-pointer ${
                       filter === 'code'
-                        ? 'text-secondary font-medium underline underline-offset-2'
-                        : 'hover:text-on-surface transition-colors cursor-pointer'
-                    }
+                        ? 'bg-secondary text-white font-medium'
+                        : 'bg-surface-container hover:text-on-surface'
+                    }`}
                   >
                     Code
                   </button>
-                  <span>·</span>
                   <button
                     type="button"
                     onClick={() => setFilter('web')}
-                    className={
+                    className={`px-2.5 py-1 rounded min-h-[36px] transition-colors cursor-pointer ${
                       filter === 'web'
-                        ? 'text-secondary font-medium underline underline-offset-2'
-                        : 'hover:text-on-surface transition-colors cursor-pointer'
-                    }
+                        ? 'bg-secondary text-white font-medium'
+                        : 'bg-surface-container hover:text-on-surface'
+                    }`}
                   >
                     Web
                   </button>
-                  <span>·</span>
                   <button
                     type="button"
                     onClick={() => setFilter('creative')}
-                    className={
+                    className={`px-2.5 py-1 rounded min-h-[36px] transition-colors cursor-pointer ${
                       filter === 'creative'
-                        ? 'text-secondary font-medium underline underline-offset-2'
-                        : 'hover:text-on-surface transition-colors cursor-pointer'
-                    }
+                        ? 'bg-secondary text-white font-medium'
+                        : 'bg-surface-container hover:text-on-surface'
+                    }`}
                   >
                     Design
                   </button>
@@ -192,7 +189,7 @@ export const SkillsPage: React.FC = () => {
                     Core programmatic fundamentals &amp; logic
                   </span>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
                   {codeSkills.map((sk) => (
                     <div
                       key={sk.id}
@@ -255,7 +252,7 @@ export const SkillsPage: React.FC = () => {
                     Structural integrity, semantics &amp; user experience
                   </span>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
                   {webSkills.map((sk) => (
                     <div
                       key={sk.id}
@@ -346,7 +343,7 @@ export const SkillsPage: React.FC = () => {
                   Foundational &amp; Certified
                 </span>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
                 {nextSkills.map((sk) => (
                   <div
                     key={sk.id}
@@ -388,23 +385,23 @@ export const SkillsPage: React.FC = () => {
         </section>
 
         {/* Bottom Callout */}
-        <section className="w-full max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-2xl">
-          <div className="rounded-2xl bg-surface-container-low p-space-xl md:p-space-2xl text-center md:text-left flex flex-col md:flex-row md:items-center justify-between gap-space-lg shadow-sm border border-outline-variant/40">
+        <section className="w-full max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-xl sm:py-space-2xl">
+          <div className="rounded-2xl bg-surface-container-low p-space-lg sm:p-space-xl md:p-space-2xl text-center sm:text-left flex flex-col sm:flex-row sm:items-center justify-between gap-space-md sm:gap-space-lg shadow-sm border border-outline-variant/40">
             <div className="space-y-space-xs max-w-xl">
               <span className="font-code-sm text-code-sm uppercase tracking-wider text-secondary font-medium">
                 Applied Engineering
               </span>
-              <h3 className="font-headline-lg text-headline-lg text-on-surface">
+              <h3 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">
                 See these tools in action across my selected projects
               </h3>
               <p className="font-body-md text-body-md text-on-surface-variant">
                 Theory and skills are measured through execution. Browse case studies covering full-stack web applications, procedural logic, and UI implementations.
               </p>
             </div>
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 w-full sm:w-auto">
               <Link
                 to="/projects"
-                className="inline-flex items-center gap-space-sm px-space-xl py-space-md rounded-lg bg-primary text-on-primary hover:bg-secondary transition-colors duration-200 shadow-sm font-label-md text-label-md group"
+                className="inline-flex items-center justify-center gap-space-sm px-space-xl py-3.5 sm:py-space-md rounded-lg bg-primary text-on-primary hover:bg-secondary transition-colors duration-200 shadow-sm font-label-md text-label-md group min-h-[44px] w-full sm:w-auto"
               >
                 <span>Explore Selected Works</span>
                 <span className="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform duration-200">

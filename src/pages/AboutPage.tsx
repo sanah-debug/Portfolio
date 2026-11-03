@@ -16,27 +16,27 @@ export const AboutPage: React.FC = () => {
       <div className="flex flex-col w-full">
         <div className="max-w-7xl mx-auto w-full px-margin md:px-margin-tablet lg:px-margin-desktop py-space-xl lg:py-space-2xl">
           {/* Editorial Lead-in Header */}
-          <header className="mb-space-2xl max-w-4xl">
+          <header className="mb-space-xl sm:mb-space-2xl max-w-4xl">
             <div className="flex items-center gap-space-xs text-secondary mb-space-sm">
               <span className="w-2 h-2 rounded-full bg-secondary"></span>
               <span className="font-code-sm text-code-sm tracking-widest uppercase font-semibold">
                 Biography // Philosophy
               </span>
             </div>
-            <h1 className="font-display text-display text-on-surface leading-[1.12] tracking-tight">
+            <h1 className="font-display text-display-mobile sm:text-display text-on-surface leading-[1.12] tracking-tight">
               A little about me, my path, and how I approach software.
             </h1>
-            <p className="mt-space-md font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            <p className="mt-space-md font-body-lg text-body-md sm:text-body-lg text-on-surface-variant max-w-2xl">
               Bridging the foundational discipline of computer science with the thoughtful restraint of editorial craftsmanship.
             </p>
           </header>
 
           {/* Visual Divider & Reading Time */}
-          <div className="w-full bg-surface-variant h-[1px] mb-space-2xl flex items-center justify-between">
-            <span className="bg-surface pr-space-md font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider">
+          <div className="w-full bg-surface-variant h-[1px] mb-space-xl sm:mb-space-2xl flex flex-col xs:flex-row xs:items-center justify-between gap-1">
+            <span className="bg-surface pr-space-md font-code-sm text-xs sm:text-code-sm text-on-surface-variant uppercase tracking-wider">
               Document ID: SH-2025-BIO
             </span>
-            <span className="bg-surface pl-space-md font-code-sm text-code-sm text-secondary">
+            <span className="bg-surface pl-space-md font-code-sm text-xs sm:text-code-sm text-secondary">
               {profile.readingCadence}
             </span>
           </div>
@@ -75,9 +75,9 @@ export const AboutPage: React.FC = () => {
               <section className="space-y-space-md">
                 <div className="flex items-baseline gap-space-xs">
                   <span className="font-code-sm text-code-sm text-secondary font-medium">[01]</span>
-                  <h2 className="font-headline-lg text-headline-lg text-on-surface">Introduction</h2>
+                  <h2 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">Introduction</h2>
                 </div>
-                <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
+                <div className="space-y-space-md font-body-lg text-body-md sm:text-body-lg text-on-surface leading-relaxed">
                   <p>
                     I am Sana Hasan, an Information Management undergraduate at Birgunj Public College, Tribhuvan University, and Junior Developer Intern at Octatribe. I have hands-on experience in full-stack and mobile application development, along with foundational knowledge of Machine Learning, Deep Learning, Natural Language Processing, and Computer Vision.
                   </p>
@@ -86,8 +86,8 @@ export const AboutPage: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="bg-surface-container-low p-space-xl rounded-xl my-space-lg shadow-sm border border-outline-variant/30">
-                  <blockquote className="font-headline-md text-headline-md italic text-on-surface leading-snug">
+                <div className="bg-surface-container-low p-space-md sm:p-space-xl rounded-xl my-space-lg shadow-sm border border-outline-variant/30">
+                  <blockquote className="font-headline-md text-headline-md-mobile sm:text-headline-md italic text-on-surface leading-snug">
                     “Software should behave like fine typography: structured by an invisible baseline grid, unambiguous in purpose, and built to outlast immediate trends.”
                   </blockquote>
                   <p className="mt-space-sm font-code-sm text-code-sm text-secondary uppercase tracking-wider">
@@ -100,14 +100,14 @@ export const AboutPage: React.FC = () => {
               <section className="space-y-space-md">
                 <div className="flex items-baseline gap-space-xs">
                   <span className="font-code-sm text-code-sm text-secondary font-medium">[02]</span>
-                  <h2 className="font-headline-lg text-headline-lg text-on-surface">How I Learn &amp; Solve Problems</h2>
+                  <h2 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">How I Learn &amp; Solve Problems</h2>
                 </div>
                 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
                   Complex software problems rarely present themselves as neat algorithms. Instead, they arrive as ambiguity—nebulous client demands, high cognitive loads, or legacy friction. My approach begins with an intentional deconstruction of requirements before writing a single line of executable code:
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md pt-space-xs">
-                  <div className="bg-surface-container-low p-space-lg rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-space-md pt-space-xs">
+                  <div className="bg-surface-container-low p-space-md sm:p-space-lg rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between">
                     <div>
                       <span className="font-code-sm text-code-sm text-secondary">PHASE .01</span>
                       <h3 className="font-headline-sm text-headline-sm text-on-surface mt-space-xs">First-Principles Dissection</h3>
@@ -120,7 +120,7 @@ export const AboutPage: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-surface-container-low p-space-lg rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between">
+                  <div className="bg-surface-container-low p-space-md sm:p-space-lg rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between">
                     <div>
                       <span className="font-code-sm text-code-sm text-secondary">PHASE .02</span>
                       <h3 className="font-headline-sm text-headline-sm text-on-surface mt-space-xs">Atomic Modularization</h3>
@@ -133,7 +133,7 @@ export const AboutPage: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-surface-container-low p-space-lg rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between">
+                  <div className="bg-surface-container-low p-space-md sm:p-space-lg rounded-xl shadow-sm border border-outline-variant/30 flex flex-col justify-between">
                     <div>
                       <span className="font-code-sm text-code-sm text-secondary">PHASE .03</span>
                       <h3 className="font-headline-sm text-headline-sm text-on-surface mt-space-xs">Self-Documenting Code</h3>
@@ -148,8 +148,8 @@ export const AboutPage: React.FC = () => {
                 </div>
 
                 {/* Workflow Distribution Chart */}
-                <div className="bg-surface-container p-space-lg rounded-xl mt-space-md border border-outline-variant/30">
-                  <div className="flex items-center justify-between mb-space-sm">
+                <div className="bg-surface-container p-space-md sm:p-space-lg rounded-xl mt-space-md border border-outline-variant/30">
+                  <div className="flex items-center justify-between mb-space-sm flex-wrap gap-2">
                     <span className="font-code-sm text-code-sm text-on-surface uppercase tracking-wider font-medium">
                       Cognitive Workflow Distribution
                     </span>
@@ -162,7 +162,7 @@ export const AboutPage: React.FC = () => {
                     <div className="bg-secondary h-full" style={{ width: '40%' }} title="Modular Construction (40%)"></div>
                     <div className="bg-outline h-full" style={{ width: '25%' }} title="Testing & Ergonomics (25%)"></div>
                   </div>
-                  <div className="grid grid-cols-3 gap-2 mt-space-sm font-code-sm text-code-sm text-on-surface-variant">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-space-sm font-code-sm text-xs sm:text-code-sm text-on-surface-variant">
                     <div><span className="inline-block w-2 h-2 rounded-full bg-primary mr-1"></span>35% Blueprinting</div>
                     <div><span className="inline-block w-2 h-2 rounded-full bg-secondary mr-1"></span>40% Construction</div>
                     <div><span className="inline-block w-2 h-2 rounded-full bg-outline mr-1"></span>25% Polish &amp; Audit</div>
@@ -174,33 +174,33 @@ export const AboutPage: React.FC = () => {
               <section className="space-y-space-md">
                 <div className="flex items-baseline gap-space-xs">
                   <span className="font-code-sm text-code-sm text-secondary font-medium">[03]</span>
-                  <h2 className="font-headline-lg text-headline-lg text-on-surface">Core Engineering Principles</h2>
+                  <h2 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">Core Engineering Principles</h2>
                 </div>
                 <div className="space-y-space-lg pt-space-xs">
-                  <div className="bg-surface-container-low p-space-xl rounded-xl shadow-sm border border-outline-variant/30 hover:shadow-md transition-shadow">
+                  <div className="bg-surface-container-low p-space-lg sm:p-space-xl rounded-xl shadow-sm border border-outline-variant/30 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-space-sm mb-space-xs">
                       <span className="material-symbols-outlined text-secondary">architecture</span>
-                      <h3 className="font-headline-md text-headline-md text-on-surface">1. Build with Purpose</h3>
+                      <h3 className="font-headline-md text-headline-md-mobile sm:text-headline-md text-on-surface">1. Build with Purpose</h3>
                     </div>
                     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
                       Refusal to introduce speculative complexity. Every library, database column, and interface transition must serve a demonstrated problem. If a standard web primitive solves the user's issue with greater resilience, that primitive is chosen over trendy, fragile abstraction layers.
                     </p>
                   </div>
 
-                  <div className="bg-surface-container-low p-space-xl rounded-xl shadow-sm border border-outline-variant/30 hover:shadow-md transition-shadow">
+                  <div className="bg-surface-container-low p-space-lg sm:p-space-xl rounded-xl shadow-sm border border-outline-variant/30 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-space-sm mb-space-xs">
                       <span className="material-symbols-outlined text-secondary">autorenew</span>
-                      <h3 className="font-headline-md text-headline-md text-on-surface">2. Continuous Iteration</h3>
+                      <h3 className="font-headline-md text-headline-md-mobile sm:text-headline-md text-on-surface">2. Continuous Iteration</h3>
                     </div>
                     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
                       Writing software is an evolutionary dialog. The earliest prototype will be imperfect, but quick, instrumented deployments reveal empirical user patterns. I favor short feedback loops, strict semantic versioning, and codebases configured to receive incremental refactors safely.
                     </p>
                   </div>
 
-                  <div className="bg-surface-container-low p-space-xl rounded-xl shadow-sm border border-outline-variant/30 hover:shadow-md transition-shadow">
+                  <div className="bg-surface-container-low p-space-lg sm:p-space-xl rounded-xl shadow-sm border border-outline-variant/30 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-space-sm mb-space-xs">
                       <span className="material-symbols-outlined text-secondary">accessibility_new</span>
-                      <h3 className="font-headline-md text-headline-md text-on-surface">3. Human-First Design</h3>
+                      <h3 className="font-headline-md text-headline-md-mobile sm:text-headline-md text-on-surface">3. Human-First Design</h3>
                     </div>
                     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
                       Systems fail if their cognitive friction exceeds their computational utility. From WCAG AAA color contrast ratios and keyboard navigation pathways down to descriptive HTTP error payloads, ergonomics is an engineering responsibility—not an afterthought relegated to a style pass.
@@ -213,7 +213,7 @@ export const AboutPage: React.FC = () => {
               <section className="space-y-space-md">
                 <div className="flex items-baseline gap-space-xs">
                   <span className="font-code-sm text-code-sm text-secondary font-medium">[04]</span>
-                  <h2 className="font-headline-lg text-headline-lg text-on-surface">Beyond Code</h2>
+                  <h2 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">Beyond Code</h2>
                 </div>
                 <div className="space-y-space-md font-body-md text-body-md text-on-surface-variant leading-relaxed">
                   <p>
@@ -224,7 +224,7 @@ export const AboutPage: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="bg-surface-container-low p-space-xl rounded-xl shadow-sm border border-outline-variant/30 grid grid-cols-1 sm:grid-cols-3 gap-space-md items-center">
+                <div className="bg-surface-container-low p-space-md sm:p-space-xl rounded-xl shadow-sm border border-outline-variant/30 grid grid-cols-1 sm:grid-cols-3 gap-space-md items-center">
                   <div className="flex items-center gap-space-sm">
                     <div className="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
                       <span className="material-symbols-outlined text-[20px]">format_size</span>
@@ -369,11 +369,11 @@ export const AboutPage: React.FC = () => {
           </div>
 
           {/* Bottom CTA Banner */}
-          <section className="mt-space-3xl mb-space-2xl">
-            <div className="bg-surface-container-low rounded-xl p-space-xl md:p-space-2xl shadow-sm border border-outline-variant/40 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-xl">
+          <section className="mt-space-2xl sm:mt-space-3xl mb-space-xl sm:mb-space-2xl">
+            <div className="bg-surface-container-low rounded-xl p-space-lg sm:p-space-xl md:p-space-2xl shadow-sm border border-outline-variant/40 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg sm:gap-space-xl">
               <div className="max-w-xl space-y-space-xs">
                 <span className="font-code-sm text-code-sm text-secondary uppercase tracking-widest font-semibold">Initiate Dialogue</span>
-                <h2 className="font-headline-lg text-headline-lg text-on-surface">
+                <h2 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">
                   Interested in collaborating or discussing an upcoming project?
                 </h2>
                 <p className="font-body-md text-body-md text-on-surface-variant pt-space-xs">
@@ -383,7 +383,7 @@ export const AboutPage: React.FC = () => {
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md w-full md:w-auto">
                 <Link
                   to="/contact"
-                  className="inline-flex items-center justify-center gap-space-xs px-space-xl py-4 rounded bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary transition-colors duration-200 shadow-sm group"
+                  className="inline-flex items-center justify-center gap-space-xs px-space-xl py-3.5 sm:py-4 rounded bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary transition-colors duration-200 shadow-sm group min-h-[44px]"
                 >
                   <span>Let's talk</span>
                   <span className="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform duration-200">
@@ -392,7 +392,7 @@ export const AboutPage: React.FC = () => {
                 </Link>
                 <Link
                   to="/projects"
-                  className="inline-flex items-center justify-center px-space-md py-4 rounded bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors duration-200 shadow-sm border border-outline-variant/30"
+                  className="inline-flex items-center justify-center px-space-md py-3.5 sm:py-4 rounded bg-surface text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors duration-200 shadow-sm border border-outline-variant/30 min-h-[44px]"
                 >
                   <span>Inspect Selected Works</span>
                 </Link>

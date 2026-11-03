@@ -7,6 +7,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        'xs': '480px',
+      },
       colors: {
         "surface": "var(--color-surface, #faf9f6)",
         "surface-dim": "var(--color-surface-dim, #dbdad7)",

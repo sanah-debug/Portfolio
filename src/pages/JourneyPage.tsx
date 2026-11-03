@@ -22,8 +22,8 @@ export const JourneyPage: React.FC = () => {
 
       <div className="flex flex-col w-full">
         {/* Hero Header Section */}
-        <section className="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pt-space-xl pb-space-2xl w-full">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-end">
+        <section className="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pt-space-lg sm:pt-space-xl pb-space-xl sm:pb-space-2xl w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter-desktop items-end">
             <div className="lg:col-span-8 flex flex-col space-y-space-md">
               <div className="flex items-center gap-space-xs text-secondary">
                 <span className="inline-block w-2 h-2 rounded-full bg-secondary"></span>
@@ -31,31 +31,31 @@ export const JourneyPage: React.FC = () => {
                   Progression &amp; Milestones
                 </span>
               </div>
-              <h1 className="font-display text-display text-on-surface tracking-tight">
+              <h1 className="font-display text-display-mobile sm:text-display text-on-surface tracking-tight">
                 My development journey<span className="text-secondary italic">.</span>
               </h1>
-              <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+              <p className="font-body-lg text-body-md sm:text-body-lg text-on-surface-variant max-w-2xl">
                 The incremental progression from BIM computational foundations to fullstack JavaScript, mobile engineering, and professional junior developer internship at Octatribe.
               </p>
             </div>
 
             {/* Quick Metrics Tag */}
-            <div className="lg:col-span-4 flex flex-col justify-end">
-              <div className="bg-surface-container-low p-space-lg rounded-xl shadow-sm border border-outline-variant/40 flex flex-col space-y-space-sm">
+            <div className="lg:col-span-4 flex flex-col justify-end w-full">
+              <div className="bg-surface-container-low p-space-md sm:p-space-lg rounded-xl shadow-sm border border-outline-variant/40 flex flex-col space-y-space-sm">
                 <div className="flex items-center justify-between text-on-surface-variant">
                   <span className="font-code-sm text-code-sm uppercase tracking-wider">Chronicle Record</span>
                   <span className="font-code-sm text-code-sm text-secondary">Oct 2026 / Active</span>
                 </div>
                 <div className="flex items-baseline gap-space-xs">
-                  <span className="font-headline-lg text-headline-lg text-on-surface font-semibold">04</span>
+                  <span className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface font-semibold">04</span>
                   <span className="font-body-sm text-body-sm text-on-surface-variant">Structured Evolution Epochs</span>
                 </div>
                 <div className="w-full bg-surface-container-high rounded-full h-1.5 overflow-hidden">
                   <div className="bg-secondary h-full rounded-full w-full transition-all duration-700"></div>
                 </div>
-                <div className="flex justify-between items-center pt-space-xs text-on-surface-variant">
-                  <span className="font-code-sm text-code-sm">Baseline: BIM • TU</span>
-                  <span className="font-code-sm text-code-sm font-medium text-on-surface">Target: ML/AI &amp; Full-Stack</span>
+                <div className="flex justify-between items-center pt-space-xs text-on-surface-variant flex-wrap gap-1">
+                  <span className="font-code-sm text-xs sm:text-code-sm">Baseline: BIM • TU</span>
+                  <span className="font-code-sm text-xs sm:text-code-sm font-medium text-on-surface">Target: ML/AI &amp; Full-Stack</span>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ export const JourneyPage: React.FC = () => {
                   <span className="font-code-sm text-code-sm text-on-surface-variant mt-2 font-mono">INIT</span>
                 </div>
 
-                <div className="w-full bg-surface-container-lowest p-space-xl rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 space-y-space-md border border-outline-variant/40">
+                <div className="w-full bg-surface-container-lowest p-space-md sm:p-space-xl rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 space-y-space-md border border-outline-variant/40">
                   <div className="flex flex-wrap items-center justify-between gap-space-sm pb-space-xs">
                     <span className="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container text-on-surface-variant font-medium">
                       Phase 01 • BIM Academic Foundation
@@ -140,7 +140,7 @@ export const JourneyPage: React.FC = () => {
                   </div>
 
                   <div className="space-y-space-xs">
-                    <h2 className="font-headline-md text-headline-md text-on-surface">
+                    <h2 className="font-headline-md text-headline-md-mobile sm:text-headline-md text-on-surface">
                       {journey[0].title}
                     </h2>
                     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -149,7 +149,7 @@ export const JourneyPage: React.FC = () => {
                   </div>
 
                   {journey[0].codeSnippet && (
-                    <div className="bg-surface-container p-space-md rounded-lg overflow-x-auto border border-outline-variant/30">
+                    <div className="bg-surface-container p-space-sm sm:p-space-md rounded-lg overflow-x-auto border border-outline-variant/30">
                       <div className="flex items-center justify-between pb-space-xs mb-space-xs border-b border-surface-variant/60">
                         <div className="flex items-center gap-space-xs">
                           <span className="w-2.5 h-2.5 rounded-full bg-surface-dim"></span>
@@ -163,7 +163,7 @@ export const JourneyPage: React.FC = () => {
                           {journey[0].codeSnippet.archivedDate}
                         </span>
                       </div>
-                      <pre className="font-code-sm text-code-sm text-on-surface leading-tight font-mono">
+                      <pre className="font-code-sm text-xs sm:text-code-sm text-on-surface leading-tight font-mono">
                         <code>{journey[0].codeSnippet.code}</code>
                       </pre>
                     </div>
@@ -188,7 +188,7 @@ export const JourneyPage: React.FC = () => {
                   <span className="font-code-sm text-code-sm text-on-surface-variant mt-2 font-mono">DOM</span>
                 </div>
 
-                <div className="w-full bg-surface-container-lowest p-space-xl rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 space-y-space-md border border-outline-variant/40">
+                <div className="w-full bg-surface-container-lowest p-space-md sm:p-space-xl rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 space-y-space-md border border-outline-variant/40">
                   <div className="flex flex-wrap items-center justify-between gap-space-sm pb-space-xs">
                     <span className="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container text-on-surface-variant font-medium">
                       Phase 02 • Fullstack Pre-Bootcamp
@@ -197,7 +197,7 @@ export const JourneyPage: React.FC = () => {
                   </div>
 
                   <div className="space-y-space-xs">
-                    <h2 className="font-headline-md text-headline-md text-on-surface">
+                    <h2 className="font-headline-md text-headline-md-mobile sm:text-headline-md text-on-surface">
                       {journey[1].title}
                     </h2>
                     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -246,7 +246,7 @@ export const JourneyPage: React.FC = () => {
                   <span className="font-code-sm text-code-sm text-on-surface-variant mt-2 font-mono">APPS</span>
                 </div>
 
-                <div className="w-full bg-surface-container-lowest p-space-xl rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 space-y-space-md border border-outline-variant/40">
+                <div className="w-full bg-surface-container-lowest p-space-md sm:p-space-xl rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 space-y-space-md border border-outline-variant/40">
                   <div className="flex flex-wrap items-center justify-between gap-space-sm pb-space-xs">
                     <span className="font-code-sm text-code-sm px-2.5 py-1 rounded bg-surface-container text-on-surface-variant font-medium">
                       Phase 03 • Applied Mobile &amp; E-Commerce
@@ -255,7 +255,7 @@ export const JourneyPage: React.FC = () => {
                   </div>
 
                   <div className="space-y-space-xs">
-                    <h2 className="font-headline-md text-headline-md text-on-surface">
+                    <h2 className="font-headline-md text-headline-md-mobile sm:text-headline-md text-on-surface">
                       {journey[2].title}
                     </h2>
                     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -263,7 +263,7 @@ export const JourneyPage: React.FC = () => {
                     </p>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
                     {journey[2].cards?.map((card, i) => (
                       <div key={i} className="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between border border-outline-variant/30">
                         <div className="space-y-space-xs">
@@ -301,7 +301,7 @@ export const JourneyPage: React.FC = () => {
                   <span className="font-code-sm text-code-sm text-secondary font-semibold mt-2 font-mono">NEXT</span>
                 </div>
 
-                <div className="w-full bg-surface-container p-space-xl rounded-xl shadow-md space-y-space-md border border-secondary/30">
+                <div className="w-full bg-surface-container p-space-md sm:p-space-xl rounded-xl shadow-md space-y-space-md border border-secondary/30">
                   <div className="flex flex-wrap items-center justify-between gap-space-sm pb-space-xs">
                     <div className="flex items-center gap-2">
                       <span className="inline-block w-2 h-2 rounded-full bg-secondary"></span>
@@ -315,10 +315,10 @@ export const JourneyPage: React.FC = () => {
                   </div>
 
                   <div className="space-y-space-xs">
-                    <h2 className="font-headline-lg text-headline-lg text-on-surface">
+                    <h2 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">
                       {journey[3].title}
                     </h2>
-                    <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    <p className="font-body-lg text-body-md sm:text-body-lg text-on-surface-variant leading-relaxed">
                       {journey[3].description}
                     </p>
                   </div>
@@ -347,23 +347,23 @@ export const JourneyPage: React.FC = () => {
         </section>
 
         {/* Bottom Dialogue Box */}
-        <section className="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-2xl w-full">
-          <div className="rounded-2xl bg-surface-container-low p-space-xl md:p-space-2xl flex flex-col md:flex-row items-center justify-between gap-space-lg shadow-sm border border-outline-variant/40">
+        <section className="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-xl sm:py-space-2xl w-full">
+          <div className="rounded-2xl bg-surface-container-low p-space-lg sm:p-space-xl md:p-space-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md sm:gap-space-lg shadow-sm border border-outline-variant/40">
             <div className="space-y-space-xs max-w-xl">
               <span className="font-code-sm text-code-sm uppercase tracking-wider text-secondary font-semibold">
                 Trajectory Summary
               </span>
-              <h3 className="font-headline-lg text-headline-lg text-on-surface">
+              <h3 className="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface">
                 Ready to review my selected implementations?
               </h3>
               <p className="font-body-md text-body-md text-on-surface-variant">
                 From foundational data structures in C and Java to full-stack reactive applications, see the source code and design decisions behind my work.
               </p>
             </div>
-            <div className="flex-shrink-0 flex items-center gap-3">
+            <div className="flex-shrink-0 flex items-center gap-3 w-full sm:w-auto">
               <Link
                 to="/projects"
-                className="inline-flex items-center gap-space-sm px-space-xl py-space-md rounded-lg bg-primary text-on-primary hover:bg-secondary transition-colors duration-200 shadow-sm font-label-md text-label-md group"
+                className="inline-flex items-center justify-center gap-space-sm px-space-xl py-3.5 sm:py-space-md rounded-lg bg-primary text-on-primary hover:bg-secondary transition-colors duration-200 shadow-sm font-label-md text-label-md group min-h-[44px] w-full sm:w-auto"
               >
                 <span>View Projects</span>
                 <span className="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform duration-200">

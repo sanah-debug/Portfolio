@@ -142,7 +142,7 @@ export const ContactPage: React.FC = () => {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-end">
               <div className="lg:col-span-8">
-                <h1 className="font-display text-display text-on-surface tracking-tight leading-[1.08] max-w-3xl">
+                <h1 className="font-display text-display-mobile sm:text-display text-on-surface tracking-tight leading-[1.08] max-w-3xl">
                   Have an idea? <br />
                   <span className="italic font-normal text-on-surface-variant font-display">
                     Let's connect.
@@ -162,15 +162,15 @@ export const ContactPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop mt-space-xl items-start">
             {/* Form Column (7 cols) */}
             <div className="lg:col-span-7">
-              <div className="bg-surface-container-low rounded-xl p-space-lg md:p-space-xl shadow-sm border border-outline-variant/40">
-                <div className="flex items-center justify-between pb-space-md mb-space-lg border-b border-surface-variant">
+              <div className="bg-surface-container-low rounded-xl p-space-md sm:p-space-lg md:p-space-xl shadow-sm border border-outline-variant/40">
+                <div className="flex items-center justify-between pb-space-md mb-space-lg border-b border-surface-variant flex-wrap gap-2">
                   <div className="flex items-center gap-space-xs">
                     <span className="material-symbols-outlined text-secondary text-[20px]">edit_note</span>
                     <span className="font-code-sm text-code-sm uppercase tracking-wider text-on-surface font-medium">
                       Transmittal Dispatch
                     </span>
                   </div>
-                  <span className="font-code-sm text-code-sm text-on-surface-variant">
+                  <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant">
                     Standard Encrypted Form
                   </span>
                 </div>
@@ -182,11 +182,11 @@ export const ContactPage: React.FC = () => {
                       <label className="font-label-md text-label-md text-on-surface font-medium" htmlFor="fullName">
                         Name <span className="text-secondary font-bold">*</span>
                       </label>
-                      <span className="font-code-sm text-code-sm text-on-surface-variant">Required</span>
+                      <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant">Required</span>
                     </div>
                     <div className="relative">
                       <input
-                        className="w-full px-space-md py-3 rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 transition-all duration-200 border border-outline-variant/30"
+                        className="w-full px-space-md py-3 rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 transition-all duration-200 border border-outline-variant/30 min-h-[44px]"
                         id="fullName"
                         name="name"
                         value={formData.name}
@@ -204,11 +204,11 @@ export const ContactPage: React.FC = () => {
                       <label className="font-label-md text-label-md text-on-surface font-medium" htmlFor="emailAddr">
                         Email Address <span className="text-secondary font-bold">*</span>
                       </label>
-                      <span className="font-code-sm text-code-sm text-on-surface-variant">Format: name@domain.com</span>
+                      <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant">Format: name@domain.com</span>
                     </div>
                     <div className="relative">
                       <input
-                        className="w-full px-space-md py-3 rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 transition-all duration-200 border border-outline-variant/30"
+                        className="w-full px-space-md py-3 rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 transition-all duration-200 border border-outline-variant/30 min-h-[44px]"
                         id="emailAddr"
                         name="email"
                         value={formData.email}
@@ -226,11 +226,11 @@ export const ContactPage: React.FC = () => {
                       <label className="font-label-md text-label-md text-on-surface font-medium" htmlFor="subjectLine">
                         Subject
                       </label>
-                      <span className="font-code-sm text-code-sm text-on-surface-variant">Optional</span>
+                      <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant">Optional</span>
                     </div>
                     <div className="relative">
                       <input
-                        className="w-full px-space-md py-3 rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 transition-all duration-200 border border-outline-variant/30"
+                        className="w-full px-space-md py-3 rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 transition-all duration-200 border border-outline-variant/30 min-h-[44px]"
                         id="subjectLine"
                         name="subject"
                         value={formData.subject}
@@ -247,11 +247,11 @@ export const ContactPage: React.FC = () => {
                       <label className="font-label-md text-label-md text-on-surface font-medium" htmlFor="messageBody">
                         Message <span className="text-secondary font-bold">*</span>
                       </label>
-                      <span className="font-code-sm text-code-sm text-on-surface-variant">Min. 10 characters</span>
+                      <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant">Min. 10 characters</span>
                     </div>
                     <div className="relative">
                       <textarea
-                        className="w-full p-space-md rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 resize-y transition-all duration-200 border border-outline-variant/30"
+                        className="w-full p-space-md rounded-lg bg-surface text-on-surface placeholder:text-outline text-body-md font-body-md focus:outline-none focus:ring-2 focus:ring-secondary/20 resize-y transition-all duration-200 border border-outline-variant/30 min-h-[140px]"
                         id="messageBody"
                         name="message"
                         value={formData.message}
@@ -267,7 +267,7 @@ export const ContactPage: React.FC = () => {
                   <div className="pt-space-xs space-y-space-md">
                     <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md">
                       <button
-                        className="inline-flex items-center justify-center gap-space-sm px-space-xl py-3 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary transition-all duration-200 shadow-md group disabled:opacity-50 cursor-pointer"
+                        className="inline-flex items-center justify-center gap-space-sm px-space-xl py-3.5 sm:py-3 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary transition-all duration-200 shadow-md group disabled:opacity-50 cursor-pointer min-h-[44px] w-full sm:w-auto"
                         id="submitBtn"
                         type="submit"
                         disabled={formStatus.type === 'loading'}
@@ -308,9 +308,9 @@ export const ContactPage: React.FC = () => {
                     {/* Transparent Integration Disclaimer */}
                     <div className="p-space-md rounded-lg bg-surface/70 mt-space-md border border-outline-variant/30">
                       <div className="flex items-start gap-space-sm">
-                        <span className="material-symbols-outlined text-outline text-[18px] mt-0.5">info</span>
+                        <span className="material-symbols-outlined text-outline text-[18px] mt-0.5 shrink-0">info</span>
                         <p className="font-code-sm text-code-sm text-on-surface-variant leading-relaxed">
-                          Note: This form connects directly to the backend Express API (<code className="text-secondary bg-surface px-1 py-0.5 rounded">POST /api/contact</code>). Submissions are safely logged and will forward via SMTP or Resend once email credentials are provided.
+                          Note: This form connects directly to the backend Express API (<code className="text-secondary bg-surface px-1 py-0.5 rounded break-all sm:break-normal">POST /api/contact</code>). Submissions are safely logged and will forward via SMTP or Resend once email credentials are provided.
                         </p>
                       </div>
                     </div>
@@ -319,15 +319,15 @@ export const ContactPage: React.FC = () => {
               </div>
 
               {/* Security / PGP Card */}
-              <div className="mt-space-lg p-space-lg rounded-xl bg-surface-container-high/60 flex items-center justify-between border border-outline-variant/30">
-                <div className="flex items-center gap-space-sm">
-                  <span className="material-symbols-outlined text-secondary text-[22px]">fingerprint</span>
-                  <div>
+              <div className="mt-space-lg p-space-md sm:p-space-lg rounded-xl bg-surface-container-high/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-space-sm border border-outline-variant/30">
+                <div className="flex items-center gap-space-sm min-w-0">
+                  <span className="material-symbols-outlined text-secondary text-[22px] shrink-0">fingerprint</span>
+                  <div className="min-w-0">
                     <p className="font-label-md text-label-md text-on-surface font-medium">Public Key &amp; Secure Channels</p>
-                    <p className="font-code-sm text-code-sm text-on-surface-variant">PGP Fingerprint: {profile.pgpKey}</p>
+                    <p className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant truncate">PGP Fingerprint: {profile.pgpKey}</p>
                   </div>
                 </div>
-                <span className="font-code-sm text-code-sm px-2 py-1 rounded bg-surface text-on-surface-variant border border-outline-variant/30">
+                <span className="font-code-sm text-xs sm:text-code-sm px-2 py-1 rounded bg-surface text-on-surface-variant border border-outline-variant/30 shrink-0">
                   v4.19
                 </span>
               </div>
@@ -363,11 +363,11 @@ export const ContactPage: React.FC = () => {
                 </div>
                 <div className="space-y-space-sm">
                   <div className="p-space-md rounded-lg bg-surface flex items-center justify-between gap-space-sm border border-outline-variant/30">
-                    <div className="min-w-0">
-                      <span className="font-code-sm text-code-sm text-on-surface-variant block uppercase tracking-wider">
+                    <div className="min-w-0 flex-1">
+                      <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant block uppercase tracking-wider">
                         Direct Address
                       </span>
-                      <span className="font-code-md text-code-md text-on-surface font-medium truncate block" id="emailText">
+                      <span className="font-code-md text-xs sm:text-code-md text-on-surface font-medium truncate block" id="emailText">
                         {profile.inbox}
                       </span>
                     </div>
@@ -375,7 +375,7 @@ export const ContactPage: React.FC = () => {
                       type="button"
                       onClick={handleCopyEmail}
                       title="Copy address to clipboard"
-                      className="flex items-center justify-center p-2 rounded bg-surface-container hover:bg-secondary hover:text-on-secondary transition-colors duration-200 cursor-pointer"
+                      className="flex items-center justify-center p-2 rounded bg-surface-container hover:bg-secondary hover:text-on-secondary transition-colors duration-200 cursor-pointer shrink-0 min-h-[40px] min-w-[40px]"
                     >
                       <span className="material-symbols-outlined text-[18px]">content_copy</span>
                     </button>
@@ -398,39 +398,39 @@ export const ContactPage: React.FC = () => {
                 </div>
                 <div className="space-y-space-sm">
                   <a
-                    className="group flex items-center justify-between p-space-md rounded-lg bg-surface hover:bg-surface-container transition-colors duration-200 border border-outline-variant/30"
+                    className="group flex items-center justify-between p-space-md rounded-lg bg-surface hover:bg-surface-container transition-colors duration-200 border border-outline-variant/30 min-h-[48px]"
                     href={profile.social.github}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <div className="flex items-center gap-space-sm">
-                      <div className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+                    <div className="flex items-center gap-space-sm min-w-0">
+                      <div className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200 shrink-0">
                         <span className="material-symbols-outlined text-[18px]">code</span>
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <span className="font-label-md text-label-md text-on-surface font-medium block">GitHub</span>
-                        <span className="font-code-sm text-code-sm text-on-surface-variant">{profile.social.github}</span>
+                        <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant truncate block">{profile.social.github}</span>
                       </div>
                     </div>
-                    <span className="material-symbols-outlined text-[18px] text-outline group-hover:text-secondary group-hover:translate-x-0.5 transition-all duration-200">
+                    <span className="material-symbols-outlined text-[18px] text-outline group-hover:text-secondary group-hover:translate-x-0.5 transition-all duration-200 shrink-0">
                       north_east
                     </span>
                   </a>
 
                   <a
-                    className="group flex items-center justify-between p-space-md rounded-lg bg-surface hover:bg-surface-container transition-colors duration-200 border border-outline-variant/30"
+                    className="group flex items-center justify-between p-space-md rounded-lg bg-surface hover:bg-surface-container transition-colors duration-200 border border-outline-variant/30 min-h-[48px]"
                     href={profile.social.phone}
                   >
-                    <div className="flex items-center gap-space-sm">
-                      <div className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200">
+                    <div className="flex items-center gap-space-sm min-w-0">
+                      <div className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center group-hover:bg-secondary group-hover:text-on-secondary transition-colors duration-200 shrink-0">
                         <span className="material-symbols-outlined text-[18px]">call</span>
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <span className="font-label-md text-label-md text-on-surface font-medium block">Direct Phone</span>
-                        <span className="font-code-sm text-code-sm text-on-surface-variant">{profile.phone}</span>
+                        <span className="font-code-sm text-xs sm:text-code-sm text-on-surface-variant truncate block">{profile.phone}</span>
                       </div>
                     </div>
-                    <span className="material-symbols-outlined text-[18px] text-outline group-hover:text-secondary group-hover:translate-x-0.5 transition-all duration-200">
+                    <span className="material-symbols-outlined text-[18px] text-outline group-hover:text-secondary group-hover:translate-x-0.5 transition-all duration-200 shrink-0">
                       arrow_forward
                     </span>
                   </a>
@@ -456,7 +456,7 @@ export const ContactPage: React.FC = () => {
                       href={profile.resume.downloadUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-between w-full px-space-md py-3 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary transition-colors duration-200 shadow-sm group cursor-pointer"
+                      className="inline-flex items-center justify-between w-full px-space-md py-3 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary transition-colors duration-200 shadow-sm group cursor-pointer min-h-[44px]"
                     >
                       <div className="flex items-center gap-space-sm">
                         <span className="material-symbols-outlined text-[20px]">visibility</span>
@@ -467,13 +467,13 @@ export const ContactPage: React.FC = () => {
                     <a
                       href={profile.resume.downloadUrl}
                       download={profile.resume.fileName}
-                      className="inline-flex items-center justify-between w-full px-space-md py-2.5 rounded-lg bg-surface-container-high border border-outline-variant/30 text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors duration-200 shadow-sm group cursor-pointer"
+                      className="inline-flex items-center justify-between w-full px-space-md py-2.5 rounded-lg bg-surface-container-high border border-outline-variant/30 text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors duration-200 shadow-sm group cursor-pointer min-h-[44px]"
                     >
                       <div className="flex items-center gap-space-sm">
                         <span className="material-symbols-outlined text-[20px]">download</span>
                         <span>Download Official Resume (PDF)</span>
                       </div>
-                      <span className="font-code-sm text-code-sm opacity-75">PDF · {profile.resume.fileSize}</span>
+                      <span className="font-code-sm text-xs sm:text-code-sm opacity-75">PDF · {profile.resume.fileSize}</span>
                     </a>
                   </div>
                 </div>
